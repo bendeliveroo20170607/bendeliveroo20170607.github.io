@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+  <title>Media Queries</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div id="container">
+    <h1>Media Queries</h1>
+
+    <p>Media Queries are a feature of CSS that give you more control over when a set of CSS rules should apply. Whilst they can be used for lots of other things too, we mostly use them to control what size of device display we want certain rules to work at. This is very useful for applying different CSS to layouts on mobile devices to desktop computers with larger screens to best take advantage of the different available space.</p>
+
+    <p>Here is a really simple example:</p>
+
+<pre><code>h1 {
+  font-size: 40px;
+}
+
+@media only screen and (min-width: 400px) {
+  h1 {
+    font-size: 60px;
+  }
+}</code></pre>
+
+    <p>Here we’re setting the <code>font-size</code> for <code>h1</code> to 40 pixels, but then also adding a Media Query rule for <em>screens</em> wider than <em>400px</em>, which then increases the <code>font-size</code> to 60 pixels. Here you can see how this changes the layout at different sizes:</p>
+
+    <p>
+      <strong>375px</strong>
+      <img src="media-queries-1.png" width="375" height="512" alt="Screenshot of the page at 375px wide">
+    </p>
+
+    <p>
+      <strong>640px</strong>
+      <img src="media-queries-2.png" width="640" height="400" alt="Screenshot of the page at 640px wide">
+    </p>
+
+    <p>You probably notice that the layout of the text following the portrait changes, from appearing below the photo, to <em>alongside</em> it. You can learn how to make this kind of layout using <a href="/floated-elements.html">floated elements</a>.</p>
+
+  </div>
+</body>
+</html>

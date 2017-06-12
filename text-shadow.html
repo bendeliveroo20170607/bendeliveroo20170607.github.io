@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+  <title>Text Shadow</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div id="container">
+    <h1>Text Shadow</h1>
+
+    <p>You can give text an interesting special effect using the <code>text-shadow</code> property:</p>
+
+<pre><code>h1 {
+  text-shadow: 5px 5px 10px green;
+}</code></pre>
+
+    <p>This would then look like this:</p>
+
+    <p><img src="text-shadow.png"></p>
+
+    <p>The <em>syntax</em> of this rule may need a little explanation, as it contains four important parts, each separated by a space:</p>
+
+<pre><code><span class="fade">h1 {
+  text-shadow:</span> 5px <span class="fade">5px 10px green;
+}</span></code></pre>
+
+    <p>The first number represents the <em>offset</em> of the text shadow relative to the text it appears behind, in the <strong>x-axis</strong> (i.e. horizontally), in a distance unit (such as a number of pixels).</p>
+
+<pre><code><span class="fade">h1 {
+  text-shadow: 5px</span> 5px <span class="fade">10px green;
+}</span></code></pre>
+
+    <p>The second number represents the <em>offset</em> of the text shadow in the <strong>y-axis</strong> (i.e. vertically).</p>
+
+<pre><code><span class="fade">h1 {
+  text-shadow: 5px 5px</span> 10px <span class="fade">green;
+}</span></code></pre>
+
+    <p>The third number represents the <em>radius</em> of the blur effect on the text shadow. You can set this to <code>0</code> or omit it entirely to have a shadow that appears as sharp as the text itself.</p>
+
+<pre><code><span class="fade">h1 {
+  text-shadow: 5px 5px 10px</span> green;
+<span class="fade">}</span></code></pre>
+
+    <p>The final part of the rule is the <em>colour</em> you wish the shadow to appear in, which can be any <em>named colour</em> or explicit value (in hexadecimal, <code>rgb()</code>, <code>rgba()</code> or <code>hsl()</code> form).</p>
+
+  </div>
+</body>
+</html>

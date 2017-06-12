@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+  <title>Floated Elements</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div id="container">
+    <h1>Floated Elements</h1>
+
+    <p>By default, most HTML elements have one of two layout modes: <em>inline</em>, or <em>block</em>. Elements that have <em>inline</em> layout will appear on the same horizonal row as other elements that have this layout mode; for example, the <code>em</code> and <code>strong</code> tags used to <em>emphasise</em> text. Conversely, <em>block</em> display elements appear below one another <em>vertically</em>, for example a <code>p</code> tag for a new paragraph. But what if you want a block display element to appear <em>alongside</em> another element instead of below it?</p>
+
+    <p>There are lots of ways of achieving this, and the best way depends a lot on what kind of things you’re laying out. For a really simple example, let’s take our portrait photo and <em>about me</em> paragraph:</p>
+
+<pre><code>&lt;img src="ben.jpg" height="200" width="200"&gt;
+
+&lt;p&gt;
+  Hi! My name is Ben. I’m a front-end engineer at Deliveroo,
+  working on the Growth team. Our team is responsible for
+  trying out all sorts of experiments to see what can make
+  Deliveroo a better experience for our customers!
+&lt;/p&gt;</code></pre>
+
+    <p>An <code>img</code> element will appear <em>inline</em> by default, but the paragraph tag below it will have <strong>block</strong> layout, forcing it to appear underneath the photo, which would make it look like this:</p>
+
+    <p>
+      <img src="float-1.png">
+    </p>
+
+    <p>A simple way of changing how these two elements layout respective to each other is to give the image a <em>float</em> layout property, like this:</p>
+
+<pre><code>img {
+  float: left;
+}</code></pre>
+
+    <p>Once we do this, the image ‘floats’ to the left of its container, and the paragraph of text slides up alongside it:</p>
+
+    <p>
+      <img src="float-2.png">
+    </p>
+
+    <p>As you can see, this still doesn’t look very nice — the text is aligned flush to the right hand edge of the portrait photo, but we can fix this by adding a margin on the edge of the image:</p>
+
+<pre><code>img {
+  float: left;
+  margin-right: 30px;
+}</code></pre>
+
+    <p>
+      <em>Voila!</em>
+      <img src="float-3.png">
+    </p>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+  <title>Borders</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div id="container">
+    <h1>Borders</h1>
+
+    <p>You can give any element an outline border using the <code>border</code> property:</p>
+
+<pre><code>img {
+  border: 5px solid grey;
+}</code></pre>
+
+    <p><img src="border.png" class="no-border"></p>
+
+    <p>The three components of this rule are (in order): <em>width of the border</em>, <em>style of border (solid, dashed, dotted etc.)</em> and then finally the <em>colour</em> of border which can be any <em>named colour</em> or explicit value (in hexadecimal, <code>rgb()</code>, <code>rgba()</code> or <code>hsl()</code> form).</p>
+
+    <p>You can also give elements a <code>border-radius</code>, to give them rounded corners. Despite the name including the word ‘border’, elements with a <code>border-radius</code> property <em>don’t</em> actually need to have a border as well:</p>
+
+<pre><code>img {
+  border-radius: 20px;
+}</code></pre>
+
+    <p><img src="border-radius.png" class="no-border"></p>
+
+
+  </div>
+</body>
+</html>

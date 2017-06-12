@@ -16,31 +16,71 @@
 
 ## Making your profile page
 
-All the requirements can be met with plain HTML without any CSS. Yes it will be an ugly page - that’s ok.
+First you’re going to make your page using plain HTML without any CSS. It won’t look very pretty, but that’s okay! You should try to have each of these things in your page:
 
-Students creating their profile page should try to have one of each of these things in their page:
+1. A main heading on the page with your name in it, e.g.:
 
-1. A main heading on the page with your name in it
-2. A photo of yourself
+```
+<h1>Your Name Here</h1>
+```
+
+2. A photo of yourself (if you don’t have one to hand, your mentor can help you to take one using your Mac’s webcam), e.g.:
+
+```
+<img src="my-photo.jpg" alt="This is a photo of me">
+```
+
 3. A medium-length ‘about me’ description of yourself; talk about the kind of vehicle you use to deliver etc.
+
+```
+<p>Hi, my name is Ben. Here’s some interesting facts about me!</p>
+```
+
 4. A list of things related to you, such as:
-    1. Your favourite foods (maybe in order of preference?)
-    2. Zones you’ve delivered in
-    3. Links to your social media presence, Facebook page, Twitter profile etc.
-    4. Your hobbies
-    5. A link to your favourite sports team’s website
-    6. Any other interesting list of things you can think of
-5. (optional) embed a widget, e.g. your Strava profile, Soundcloud player, Spotify playlist, Twitter timeline, a favourite YouTube video etc.
+    * Your favourite foods (maybe in order of preference?)
+    * Zones you’ve delivered in
+    * Links to your social media presence, Facebook page, Twitter profile etc.
+    * Your hobbies
+    * A link to your favourite sports team’s website
+    * Any other interesting list of things you can think of
+
+This should be either an _ordered_ (numbered) or _unordered_ (bulleted) list, e.g.:
+
+```
+<ul>
+  <li>A list</li>
+  <li>Of things</li>
+  <li>Like this</li>
+</ul>
+```
+
+5. (For advanced students) maybe embed a widget, e.g. your Strava profile, Soundcloud player, Spotify playlist, Twitter timeline, a favourite YouTube video etc.
 
 ## Making your profile page _look nicer!_
 
 First of all, use the Web Inspector tools to change and play with your layout dynamically. Some ideas for things students might want to try playing with to improve how their profile page looks:
 
-1. Change the typography
-2. Change the background and text colour
+1. Change the typography, using the `font-family` property
+2. Change the background and text colour, with `color` and `background-color`
 3. Give the layout a maximum width so that it doesn’t occupy the whole width of the window at larger sizes
 4. Make your “about me” text sit alongside your photo (`float` plus `clear` —  see [advanced topics](#advanced-topics).)
 5. GO NUTS!
+
+## Concepts to learn about
+
+1. [Semantic markup][semantic-markup]: headings, images, paragraphs, links, lists
+2. `<style>` tag vs `<link rel="stylesheet">`
+3. `font-family`
+4. `color` and `background-color`, and how colour codes work (hex, rgb)
+5. container elements, `width` and `margin`
+6. [`display: float;`][floated-elements]
+
+## Advanced topics
+
+1. [Media queries][media-queries]
+2. [`:hover`][hover]
+3. [`text-shadow`][text-shadow], [`border`, `border-radius`][borders], [`box-shadow`][box-shadow], `text-transform`
+4. transitions, transforms, animations, opacity
 
 ## Publishing your website
 
@@ -52,27 +92,16 @@ Once you’ve completed your website and are ready to publish it, you can do thi
 4. Click the button that says “Commit to master”
 5. Once this is done, you should be able to visit `https://<username>.github.io/` and see your shiny new rider profile!
 
-**Each tutor should have a go at the exercise and share a screenshot in advance!**
-
-## Concepts to learn about
-
-1. Semantic markup: headings, images, paragraphs, links, lists
-2. `<style>` tag vs `<link rel="stylesheet">`
-3. `font-family`
-4. `color` and `background-color`, and how colour codes work (hex, rgb)
-5. container elements, `width` and `margin`
-6. `display: float;`
-
-## Advanced topics
-
-1. Media queries
-2. `:hover`
-3. `text-shadow`, `border`, `border-radius`, `box-shadow`, `text-transform`
-4. transitions, transforms, animations, opacity
-
 ## Tutor further reading/explanation materials
 
 1. [Colour reference][colors] (also RGB/hex values)
 2. Layout stuff (`position: absolute` vs `position: relative`, box model)
 
 [colors]: https://developer.mozilla.org/en/docs/Web/CSS/color_value
+[semantic-markup]: http://html.com/semantic-markup/
+[media-queries]: https://rider-code-workshop.github.io/media-queries.html
+[floated-elements]: https://rider-code-workshop.github.io/floated-elements.html
+[hover]: https://rider-code-workshop.github.io/hover.html
+[text-shadow]: https://rider-code-workshop.github.io/text-shadow.html
+[borders]: https://rider-code-workshop.github.io/borders.html
+[box-shadow]: https://rider-code-workshop.github.io/text-shadow.html
