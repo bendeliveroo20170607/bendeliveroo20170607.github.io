@@ -34,6 +34,42 @@ ul, ol {
   padding-left: 20px;
 }
 
+ol.food {
+  padding: 0;
+}
+
+ol.food li {
+  list-style: none;
+  background-repeat: no-repeat;
+  padding-left: 90px;
+  line-height: 80px;
+  font-size: 18px;
+}
+
+ol.food li.beef {
+  background-image: url(images/beef.png);
+  background-size: 63px 60px;
+  background-position: 10px center;
+}
+
+ol.food li.ramen {
+  background-image: url(images/ramen.png);
+  background-size: 76px 61px;
+  background-position: left center;
+}
+
+ol.food li.pork {
+  background-image: url(images/pork-belly.png);
+  background-size: 74px 74px;
+  background-position: 5px center;
+}
+
+ol.food li.avocado {
+  background-image: url(images/avocado-toast.png);
+  background-size: 72px 67px;
+  background-position: 5px center;
+}
+
 p img {
   display: block;
   margin: 40px auto;
