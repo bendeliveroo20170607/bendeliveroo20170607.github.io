@@ -71,7 +71,7 @@ First of all, use the Web Inspector tools to change and play with your layout dy
 1. [Semantic markup][semantic-markup]: headings, images, paragraphs, links, lists
 2. `<style>` tag vs `<link rel="stylesheet">`
 3. `font-family`
-4. `color` and `background-color`, and how colour codes work (hex, rgb)
+4. `color` and `background-color`, and [how colour codes work][colors] (using hexadecimal and RGB)
 5. container elements, `width` and `margin`
 6. [`display: float;`][floated-elements]
 
@@ -81,7 +81,6 @@ First of all, use the Web Inspector tools to change and play with your layout dy
 2. [`:hover`][hover]
 3. [`text-shadow`][text-shadow], [`border`, `border-radius`][borders], [`box-shadow`][box-shadow], [`text-transform`][text-transform]
 4. [transitions][transitions], [transforms][transforms], [animations][animations], [opacity][opacity]
-5. [Hex and RGB colours][colors]
 
 ## Publishing your website
 
