@@ -79,7 +79,7 @@ First of all, use the Web Inspector tools to change and play with your layout dy
 
 1. [Media queries][media-queries]
 2. [`:hover`][hover]
-3. [`text-shadow`][text-shadow], [`border`, `border-radius`][borders], [`box-shadow`][box-shadow], `text-transform`
+3. [`text-shadow`][text-shadow], [`border`, `border-radius`][borders], [`box-shadow`][box-shadow], [`text-transform`][text-transform]
 4. transitions, transforms, animations, opacity
 
 ## Publishing your website
@@ -104,4 +104,5 @@ Once you’ve completed your website and are ready to publish it, you can do thi
 [hover]: https://rider-code-workshop.github.io/hover.html
 [text-shadow]: https://rider-code-workshop.github.io/text-shadow.html
 [borders]: https://rider-code-workshop.github.io/borders.html
-[box-shadow]: https://rider-code-workshop.github.io/text-shadow.html
+[box-shadow]: https://rider-code-workshop.github.io/box-shadow.html
+[text-transform]: https://rider-code-workshop.github.io/text-transform.html
