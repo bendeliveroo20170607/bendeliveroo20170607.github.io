@@ -81,6 +81,7 @@ First of all, use the Web Inspector tools to change and play with your layout dy
 2. [`:hover`][hover]
 3. [`text-shadow`][text-shadow], [`border`, `border-radius`][borders], [`box-shadow`][box-shadow], [`text-transform`][text-transform]
 4. [transitions][transitions], [transforms][transforms], [animations][animations], [opacity][opacity]
+5. [Mobile viewport][mobile-viewport]
 
 ## Publishing your website
 
@@ -105,3 +106,4 @@ Once you’ve completed your website and are ready to publish it, you can do thi
 [animations]: https://developer.mozilla.org/en/docs/Web/CSS/animation
 [opacity]: https://developer.mozilla.org/en/docs/Web/CSS/opacity
 [colors]: https://developer.mozilla.org/en/docs/Web/CSS/color_value
+[mobile-viewport]: https://rider-code-workshop.github.io/mobile-viewport.html
