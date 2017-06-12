@@ -27,7 +27,7 @@ First you’re going to make your page using plain HTML without any CSS. It won�
 2. A photo of yourself (if you don’t have one to hand, your mentor can help you to take one using your Mac’s webcam), e.g.:
 
 ```
-<img src="my-photo.jpg" alt="This is a photo of me">
+<img src="images/my-photo.jpg" alt="This is a photo of me">
 ```
 
 3. A medium-length ‘about me’ description of yourself; talk about the kind of vehicle you use to deliver etc.
