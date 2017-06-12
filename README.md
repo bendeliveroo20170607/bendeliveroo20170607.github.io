@@ -80,7 +80,8 @@ First of all, use the Web Inspector tools to change and play with your layout dy
 1. [Media queries][media-queries]
 2. [`:hover`][hover]
 3. [`text-shadow`][text-shadow], [`border`, `border-radius`][borders], [`box-shadow`][box-shadow], [`text-transform`][text-transform]
-4. transitions, transforms, animations, opacity
+4. [transitions][transitions], [transforms][transforms], [animations][animations], [opacity][opacity]
+5. [Hex and RGB colours][colors]
 
 ## Publishing your website
 
@@ -92,12 +93,6 @@ Once you’ve completed your website and are ready to publish it, you can do thi
 4. Click the button that says “Commit to master”
 5. Once this is done, you should be able to visit `https://<username>.github.io/` and see your shiny new rider profile!
 
-## Tutor further reading/explanation materials
-
-1. [Colour reference][colors] (also RGB/hex values)
-2. Layout stuff (`position: absolute` vs `position: relative`, box model)
-
-[colors]: https://developer.mozilla.org/en/docs/Web/CSS/color_value
 [semantic-markup]: http://html.com/semantic-markup/
 [media-queries]: https://rider-code-workshop.github.io/media-queries.html
 [floated-elements]: https://rider-code-workshop.github.io/floated-elements.html
@@ -106,3 +101,8 @@ Once you’ve completed your website and are ready to publish it, you can do thi
 [borders]: https://rider-code-workshop.github.io/borders.html
 [box-shadow]: https://rider-code-workshop.github.io/box-shadow.html
 [text-transform]: https://rider-code-workshop.github.io/text-transform.html
+[transitions]: https://developer.mozilla.org/en/docs/Web/CSS/transition
+[transforms]: https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+[animations]: https://developer.mozilla.org/en/docs/Web/CSS/animation
+[opacity]: https://developer.mozilla.org/en/docs/Web/CSS/opacity
+[colors]: https://developer.mozilla.org/en/docs/Web/CSS/color_value
